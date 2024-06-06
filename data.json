@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone",
+        "description": "Latest model with advanced features",
+        "price": 699.99,
+        "stock": 50,
+        "images": [
+            {
+                "url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2010/08/mobile-ip.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+                "alt": "Front view of smartphone"
+            }
+        ],
+        "discount": {
+            "isAvailable": true,
+            "percentage": 10
+        },
+        "category": "Electronics"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "description": "High-performance laptop for professionals",
+        "price": 1199.99,
+        "stock": 30,
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=2084&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "alt": "Open view of laptop"
+            }
+        ],
+        "discount": {
+            "isAvailable": false,
+            "percentage": 0
+        },
+        "category": "Electronics"
+    },
+    {
+        "id": 3,
+        "name": "Electric Kettle",
+        "description": "Fast boiling electric kettle with auto shut-off",
+        "price": 49.99,
+        "stock": 100,
+        "images": [
+            {
+                "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAEAgMFBgABBwj/xABGEAABAwIEAgcGAwQIBAcAAAABAAIDBBEFEiExBkEHEyJRYXGRFCMygaGxUsHRM0Jy4RU0U2KSsvDxFnPC0hdUY4KDk6L/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAkEQEBAQEAAgIBAwUAAAAAAAAAARECITEDEmEEUXETIkGBsf/aAAwDAQACEQMRAD8A6s1KOyQLpZ2UjId+6yy28dpbA0UVqyUCklaJUDoOiRIdFtmybn2S+hgcE294TQcb7lJeT3rP2C8wKWwhCi/eU7Fe41Km+RKU+yIOwQ1N8IRR+FdAHKe0UxIRZZUuIedSgZpHWNiSudvlTjy3vSGgEqPkldfUn1RNM4m2pSVEjCLbJU21lqn2KXOPd/JdP8AK4CzOENMXDYn1Qz5JAdz6rEoks7Vtrm371EGd/Mn1SoZnGRvaPqtfYxYGkZU24i6yJ12hCVMpbJa52S1UsEoplrtbJ0nRWIZedVrMkyfEstcKaMc9Iz6pRbohpdBpdQGRG4SKp7WN7RAQlQao0czIS2CXKcj3m5B77bfVc5x2m4lomGqZUuqXO1JYHA28Nfotznwq+z1jmD3UBmdyuco9f5KPdWY1Lfq4cPp+4ue+Y+gDPuuZvxniamk6udtTG8AdlwdfVY7iniOMX6ycD+ErX1iY6ZFFjbv6xiFN/wDDRFlv8Ujk+KfEOeJVAPeyKMfdpXJXcfcQRn9u8HzWDpG4jGjZ5PX+SZB15kGKAgjFqy3cWR/9qLe7EpIyz2qoBItmaGgjx+FcX/8AEbib+3l/xfyW28dcSyn+sz+WYq+FXjih3FGEROqnVMtRTA261psR/EOXnsqVPxnioLuskmuN/eFYcb4grWOZUR1M8bh2mAuNwq9iwqbvfNCYRf4ToQngT0fFOL5QS6Rx5nrOaJp+NcXgdfNIPA2d+So5qHbBzh4XSm1Tx++5MHUMO6UKqE5aylikbzNi136fRW3DOPMExMZHSmmldyl1HqPzsuDNrXDRxDh4p0VEZ7QBjd3tKmQegqTE8OxGaWGjrIppYtXsYdRdbnjtquKcP4xJRYjDUdaI5gbCf91w5tf/AHT38l22KdtZRRTtGUP5XvlPdcb+a59c4AJdE3C73zfNPTsBvZDRO98B4rFq4s0J7A8lH1rvffJHxfCPJR1d+2+Stolozd6J5IWL40VyWuWTDxdyUBZad8SWNlN8hLhohJWP6xkkcpY5l9gDe6MdsmHBQCVtRMyOJuRjy94AdsR5oyjoGtoIoqnLJI4e8eBa5/3Q08RmrKSIcnF5UrKbEW2AsusvhUdNgdDNLdwJA2KU/AKDJYsu3yRzEqV1marP2FQqeB8GmldIYiCTyTX/AAJg1tY3fRWa5WEp9hVzwLhVrNDgE5FwLhUb8+VxPmrHmSw5PsAKPAaCkY5sTCMwsSVVePuF6WTCpXU0XvJAWh5Oz7Xafor6NkBjlOarCamMAkhmZvmNfyt81ZR5mEQewOtlcBYhJ6gqVxanbDjM7L5WukzgDudr+qudP0ZzSRBwq4xmFwDdW3BzYxHuSSHNNiV0Ss6MMajiL6MNqLcmO19CqbiWG1mGzOgxCmkhe3fOLFWUBRTHY7LqHRhxOHE4DXOJbMD7G78Lhc5Ln6X8ua5XK0tsW6g8wiKKd8MkcjHFr2ODmuHIjUH1T2PQUmgN7gnv3+aBi/bjzSsMxAY3h0FcLB8rQZB3O5/VERQASXXm68XFiehHYHkg6tl5fkjovhB5WQlSR1nyWuvQOjZZ4KKtotCOxTmVdJGdMFvaSgEstWZUwNuAsmXGx2RJamnR6Ek6DdTAxQDPWySc422BRLzclCYRM00kst9yd/NOiVh3IW76BEYWT/AsiIOxWqgjIudUEVoFLcEIXyie2c5CdG5NvmjUmiTsthZbTdasjJ9uyxw030+60xbfo3Vag4Dx7R+x42SAbBzmfLcLq3DVX7RhFFK65LoW38TZUzpcpMtU6Zo3a2Tb5H8laui8Mr+GIWgnNCcvkP8AQV6mi40bw5uiHx/B6LGqMwV8DZW5SGlw1afAo+nphENN0+6LM2yuVNeYuLsCl4exiSkkzGIm8bjzHJQgJa8EciuzdN2ENGF0eItabxyGInwOo+xXGDqe5WK6r0UVhkpquicdGkSNHnur4QA8Bcq6JZSOJo4SdJYnD5jVdo9ibmB/Jcu+fJpUZuwW7lH1rrSjyUs2LKLBDzUTZH5nXul58GpZaTecLOsC6snFhsm+sC0ZAiHNEHi8vUYZUSjcMIHmdB90R1gUVxHOWULA1ub3rXOFibtBudAixGwUuJx4XHS2DpHuOXXKSPO6G66tpZo2TNdkvbUaj6qdxGeF/UOgIGUC2Zp17tQEZEG1EbmTMBaRcNcQTfzRQdHVvc3tAbckjE6mcty0wu64Gp2ui48MdGbdcCCNWlt8vzQdbRMdI0ulku19xbQKYpiGoqAPeEO02anxUjS+6YbFTXcHF79ToDYqPmondcHiS45B27SmCYE4GpBteycMzAdTbTmotlDV1ZzPldGB8QjOl/yR0OHysFnzSOHc/VTARDVwPfkbI3N3LVRUDNkFibG3n3JUWHxtN3NBTVRRNBcW3HhdMFP4vpv6Zo8s7RE8MfGLag3QXQXXEiroZDZ2W4b4g6qb4joqgUEkrXNGRzTYC1+So3RfVHD+OZYHG2d72m/jcrcSu9iw5LNEx17e9Z17VWVV6W4Wz8C1t7+7kjcP8QH2JXnIjQL0l0kyNfwTijT+Bn+dq83ch81K1Fv6LXZOMsM8XuH/AOCvQdh3Lzv0am3GOFf80/5HL0OTchSlKAWEDuWC63ZEM5VmVM9cldcmhzIsyJvr1ntCBzq/kgK2kiralkEwc6JsbnOsbb2CLM9wg45TJiMoj1exjQB56oB6jCSCJYZpYC05cjT8bOV1JU1NcG5cDpqkyNzCNkwcJSddVIwAC4A0GiRTZgzG7u0B3rbo9NAPRPgpLwrQIYGPPaaD8ksUkf4R6J3Klxh+YWYMnMk6rCmmU7G/CE62EdyeWibKoQYhbZMSQg8kTdNvKKi8Xp+swypZa5MZt8tfyXDYnf0dx/TyHsh0jDfwJXfp+1GW/iBC8/cZDqMdpJhoRpf5qwegjAL7rXs/ikU1V1tNDJ+NjXeoTvXLbmqvSgRTcEYgSdXGNg8y8fovO9rgELtPTbirWYNR4c1/bml614Hc0WH1J9FxgafLRStz0tvRdAZeMsOt+45zvRp/Vegw3ZcT6G6W+PS1b/hp4SB5u/2XZRPbz5qJRQFlsWQvtCz2lSIFDVvKnnR5Ei4upikZFvIU+wXSsquIFyeCZw6DrKipJi/etn79EeWaIaJubDZyGZ3OkcQAbG190aE5QSyR2hHxAn7Iljw4XzA+RUXSskBY2WQta0dmzdvAhHRtdGwtzg3N3aWVoJDlhchQ+26256yDG270oFBtltYlLbUtc7KCb3tsgIJSHOskl2iYe9Z0PZ1p7rocvW82iarT1w/pLh6mpZL+GpcPqu3E3XJOlentFK+21QD6hag6Vwy/r+H8Nl/FSx/ZST8sbHPeQ1jRck8gobo+f1/BWESjU+zAehI/JVXpY4vZSQPwPD33mlA9qe0/CPweZ5+HmtsOe8d43/T/ABBPUMN4IzkiHc0bfqq60ZpA3vSnaWHM7lTnB2BPxzFoqcXbACHzPts3mjbrXRRw+6k4c9qlBZJVuz675RoFdPYO9xQtPVtghjihYGRsaGtaOQGyIbiQ529UZK9hH4isNCPxFbGINPIeqV7c3uHqngwhz4bdot9U1el/EE2Blj1a06fEWpsE7gj/AAhRcGNdTnRpHqnGsjOxBsL7oNgLiAXH5AIt9KGQdYHklDC2sjewlovppqq+6OX2dr2RzNjObM9nPU2UzRHK3KdQCRqoGHGnVJgpoGxvMbix8Rdlce47IJWjqHHO2XrHjS79xdOPcb3FrHvQWHOETQzqp8jjazTfU7mx5IiWRgnMUl2uz5QDogca4WufhvbRY7KHZidEHPOIGuygC3yLvBNsrKeemEgnySh9nMO31QSmlx3kXulxU5D+s6yQnNfLfTZRtHO4ua4Oa5uthpspaKZuW+YeIG4SrK28Id4N086aO5u8W77pp00Vr5gsYhAabpwNNtkgzRAA308ko1UQGjlMUhwIXL+lZ4dQ1zLaiSNwPyC6TPVxg6u38Fy/pMcJYq5zTdtmFagFwzpAbgXR9QYbRODsUPXN/wCS3rX2PnbYKgyyySyOmqHF8rjcuJufFI6sMeJNydUuCGWpmZFEx0kkhAaxouTdbTC6Kkmr6mOnp4y+WRwa1oHNdgwHhupwOibFTkCd2sri3Rx7kf0dcEN4fpxX4i1rsRlbYN3ELTy81dMrb6hZstVUoDinWsY+JhaTYua6xHqp8xtjYwvYWlw1zEn7ImRhknihaP7xIC3iFHHUS9t73Hk3NoEkxA1o7/FF/h/mt+7/ABRfJoW20dNcZY2/oiBDHyY30VG4o+qAzkuaW8+R7k3LE09qLS+4TLK3sAOBJuiIQZRmj1B5JoZj0dYqTk1pEO6EF1nOaHDbVPSODaVzbi4QBwG4Nh++dO/VVHDZIKmkqKhtTDZ8lonB9ntcDfK4K0RyNa4subklVk00FHX1lZHBGHZ3Fwto7XmtS85/cz3s8yakMMlMFcIn1DyYx2o3i+W/K+yNrwJy6Nziw5C50zm3ya7earsuIMeS+Bj4HH8BuPRLlxLFS0uY9s+YWIkZa/orzx9vVea/qrzc7+Pqf63/AIPbFTMlBbOydrQSYrAPcSNDcnwTT8PiqyHxVUzg27ezGNDyDvI6KEfiOLxT9ZJhXXjMCLAm1hbTTQbH5JuTi+pY9vW4RMx1jnEbiC4nc7dyvXxdc+3fj5ee/SR9oq4qw0cEAfZrT2325XN9rc0ZDiErMsbmtkIFi+N5uSTteygp+No5Tc4TMw6X1Fzr5JkcaRsjDBh1UWA3ABGn0WMdFjZLX5Xk1N/eZcpjFmjXY81rNIHAOcNFXP8AjEO1bhtTqbm5uSfRKPElTMG9RhUgPiTr9FqfHalsntb4JDkDSxxsNwmpJWsDr31G+bn4quQ1+NTkBtFkvtd6L9grJReqldru0P2VvxZ7rz9/queb45t/iDI6iPNapnETm27GYG/kqd0hxUsdFLL1jnTSgZR5Hmrph9PTUl3Np2uksbOOtlSOl6mipqDD5YWua+aS8pJ+Lw8lmTjztb4+T5O83nP5UGhoavE62OkooHzTvNmsYL3/AJLuPAXA1Pw3C2rrQyoxNw+Iath8G+PeVroiwmipuEafEI6dorKu/WSnVxA0Av3aK6EanfXdZd2y4/JJI1W1myqG4XBkj5HHbS6DrK2Nzw1kngbDVOvZmpZ+8PJUFAxzp/hcdddFnq4p5lcY6469n7o2bFGtkLYiMo7wo+sIgmexkMYAPdqoqaXt9p4BWPvjWJuurIMPkcZYZHQ8pWC9ie9C0+PxSVDRSOdla13WOOgJ0+v6o0Z3gh0QIOlna/cJVNHTQtyuw2Nxcb3DGgfZaYAHHDJUhsbw9507GqsUdS80kbZ2dsgZgO9DRGNmsVBEz0A+gRLKiUDSOFvyupJlUE2N8k+bKQLqFqh2qvf4j91Y2yS9boW2vqQFV6isgdWV9OZWiZjzmjLte8fQha69ERY56lSVJsBp6KNOjrcrqQpXXLbbLhmOiVaPdKq1hIxF9zbtK2M/ZHwVSxTSucfFSrDLMaw97LickkkABjidNza17JJxfDjcCpaTpawJzXtYDTXcbd6YpsBpI/e09RVRTa2kY5uYNO7bWsfM6+KTHwxQQEGkdLCW2yOaQSywAFrg7AW13ub3VmHk83FsPe4hlQX23s02bqRr3G4Ise5G0dVFOwPiuW8iW2uCAQQo4cOUfWZnS1DyCXHtN1cTmc4nLfU8thyCkKKmZSRshZJJI1o7JksSBpYaAdyG1NUTruR1SewgaK2YIyoPZVZMRfEqT01PJpsLhAuLfr+iukLrHW1u8qMx7BaLivFIaOSoe1kMeZ0sRBDSL6dxOq68+mKnejYGPgTB2j+xc71e5WVR+DUlPhGFU2HQPc6KmjDGuO5CMMzB3/Na3whxYdkz17R3IeqxFlNHmeQSTYNG5S9STVy3wNjZ2KgfiF/oq1WyyU89mk6FKq+KGUzxHUROYHDw1CY6+mxQmWGQ3J2DspXG/Lx14ldL8fXM2wLNWvqah/ZaL7pmWKIv7TbnxKIbQFjy+N0hP4bApmaObPqxwP8ACVnxUi2W8fosy663QpqHpszPP7y9DmkAAOacYG+G3MqLD3HdxSg8hAe6ZjQQXADzXOeNOHqbFq+oqqKpMVQB2iNQ6w521CuMjr35ePcqNxBT4vSYlPVYWGyMlHvIX7HxH+4UvoU1w4poLtp6h8jBtZwf9Ci6Xi/iaiI6/DYZWjk6F4PqD+SU7HZac2xDC6qIjdzBmH1srFhPGfDphDH1vVvtqJ43Mt8yLLna2jo+lOpiGSpwJoHMtqiD6Fqj6rj2mnqHSPoKhgvsHNP6LoNLi/D9e33dVh8w2Nntcq5i9LhRrZPcUro78mtIU38LERBx/hYFn01aPDIw/wDUnD0hYT/YVv8A9bf+5Gx4Rw/L+0w+jJ8WBPN4d4eOowyjI/hCng2op3SJhg2pa0/+1g/6kHL0i07XXhw+RxO3WShv2BViGBcPx6tw+ib5MCUGYJS/u0cQH8IV8fsbVfi6QMZm/qGERZuRIfIPplTzsa46xKwbT9Qw844Awerrn6qwQcUYDR3a7EaRo7mG5HyGqHqePMFddtM+pqT3MgI/zWV38IjaHhvHq+Zj8VxMsuQLCQvP+vmujYZhWH8OySgTulaIgTJK4Zj3gbAeSpFNjeJYkCzDcGqTm0D39m3jfYKf4iwzEDhXs1U9ramIgtINmPFufcfmtbZzqSS9ZU9Pj9Exoe57GMdYBwBcCVCYnxC5sj6lhL6ZgFgDa/8Ao3VGlo8epReKnlcwcmEOH0uoyuqMYAtUU9SPOMgfZeXvvvp7ePi45ur7RY0JpjI2aVwNyGFxIb+qdFRJiRZM0OjA+EO0Poue0lbI20kbXxSNHaY4EKVixsPf1lNLklG7CuPWu04l9LnWTyCFj2dVK9vZLZW3J8j+SGhxB7XslngYznZgt6qAp+IYxP1lRATJzMbtHeY2Kl463CJIwxsroSeQvopn7F5mJcsp6h5qoKidmgzRwkaaev3RNHWl8RLPaS3NYGQi5+irVZTStAqcHc9zw7tRRm9xtcdx8EhuMYvEMjoqgOG4MRTeox9JV9utLFpfUfNLaVsuukLEVsoQhrHvJ5tsi7aFDSN3SohZKVjrgj6JDeHMOqv21HC6+/YCkzE4u+Eo6jp36cljFVmq4BwF4uaCME87KEqeBcGa/KynkYP7khH2K6e6mJHaKCfSRh97XTF1zYcBYc49htV8p3fqnmdHsB0BrQPGpcPzXRGxhuwW7K4jn7ejXD3ftXTHznefzRlP0a4Aw3fTuefFxV0DUoNN0wQFJwRw7BqzC4C4c3i6Ojw6lgflgpIIQNiyID6qXYEp7WvGrUDOGsDJSXgkW38U5idG6ppnvvnkGztwlU46l12EgdyJMznROaMmvKy1iKhPhUzic9JSzjv+F3qEKcPAZl6qrg8Yas29HK2yRvdplb8k06nc7dv1WPrGtqmvpHs7PX4gR/6kccn5oGpw4Xv7S4fx4eD9ir06hLtSxNuwxrt2LF+PWp3YoXs0QHvZqZ/8dE8fklxtoWtAdJQjX/yj/wBFdv6FiJuWn5JxmC0ocCabMRzcVm/F+Gv6t/dAYZNSxtIhnjDuRjpypeOWcsFpJvlFb81Jx0LGE5Y2tRAhIHxN9FqfHjN71//Z",
+                "alt": "Electric kettle"
+            }
+        ],
+        "discount": {
+            "isAvailable": true,
+            "percentage": 5
+        },
+        "category": "Home Appliances"
+    },
+    {
+        "id": 4,
+        "name": "Running Shoes",
+        "description": "Comfortable and durable running shoes",
+        "price": 89.99,
+        "stock": 200,
+        "images": [
+            {
+                "url": "https://hips.hearstapps.com/hmg-prod/images/hoka-zinal-13085-1643565794.jpg?crop=1.00xw:0.849xh;0,0.151xh&resize=2048:*",
+                "alt": "Running shoes"
+            }
+        ],
+        "discount": {
+            "isAvailable": true,
+            "percentage": 15
+        },
+        "category": "Footwear"
+    }
+]
